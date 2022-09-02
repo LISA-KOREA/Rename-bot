@@ -11,6 +11,8 @@
 
   ㅤ ㅤ   ㅤ <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FRename-bot"><img alt="heroku" src="https://img.shields.io/badge/-Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku&logoColor=white"/></a> 
 
+[![channel](https://te.legra.ph/file/adbf73d519f398306338f.jpg)](https://t.me/NT_BOT_CHANNEL)
+
 ### Config Vars
 
 1. `ADMIN` : Add Your User ID: You can get it by typing /info from [@UploadLinkToFileBot](https://telegram.dog/UploadLinkToFileBot)
