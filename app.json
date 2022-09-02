@@ -1,1 +1,49 @@
-# soon
+{
+    "name": "Renamer Bot",
+    "description": "Telegram File Renamer Bot",
+    "keywords": [
+        "Renamer Bot",
+        "Mongo DB"
+    ],
+    "repository": "https://github.com/LISA-KOREA/Rename-bot",
+    "success_url": "https://github.com/LISA-KOREA",
+    "env": {
+        "API_ID": {
+            "description": "Your App api_id from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your App api_hash from https://my.telegram.org",
+            "value": ""
+        },
+        "TOKEN": {
+            "description": "Your Bot Token from [BotFather](https://t.me/BotFather)",
+            "value": ""
+        },
+        "ADMIN": {
+            "description":"Your telegram I'd use this bot @UploadLinkToFileBot and use /info"
+        },
+        "UPDATE_CHANNEL": {
+            "description":"Your Channel User Name without @"
+            "value": "NT_BOT_CHANNEL"
+        },
+        "UPDATE_GROUP": {
+            "description":"Your Group User Name Without @"
+            "value": "NT_BOT_CHANNEL"
+        }
+        "DB_URL": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "DB_NAME":{ 
+               "description":"Your Mongo DB Database Name ",
+                "value": "",
+                "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
