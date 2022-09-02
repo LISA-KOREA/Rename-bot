@@ -1,3 +1,6 @@
+# (c) @LISA_FAN_LK | @UploadLinkToFileBot | @NT_BOT_CHANNEL
+
+
 from pyrogram import Client, filters
 from helper.database import find, delthumb, addthumb
 
