@@ -14,3 +14,15 @@
 ### Config Vars
 
 1, `ADMIN` : Add Your User ID: You can get it by typing /info from [@UploadLinkToFileBot](https://telegram.dog/UploadLinkToFileBot)
+
+2. `API_HASH` : Your App api_hash from https://my.telegram.org
+
+3. `API_ID` : Your App api_id from https://my.telegram.org
+
+4.`DB_NAME` : Your mongo db database name from mongodb.com
+
+5. `DB_URL` : Your Mongo DB URL Obtained From mongodb.com
+
+6. `TOKEN` : Your Bot Token from https://t.me/BotFather
+
+7. `UPDATE_CHANNEL` : Your Channel User Name `without @`
