@@ -12,6 +12,4 @@ class Config(object):
 
     DB_URL = os.environ.get("DB_URL","")
 
-    UPDATE_GROUP = os.environ.get("UPDATE_GROUP", "")
-    
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
