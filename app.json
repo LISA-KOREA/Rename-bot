@@ -17,11 +17,11 @@
             "value": ""
         },
         "TOKEN": {
-            "description": "Your Bot Token from [BotFather](https://t.me/BotFather)",
+            "description": "Your Bot Token from https://t.me/BotFather",
             "value": ""
         },
         "ADMIN": {
-            "description":"Add Your User ID: You can get it by typing '/id' to https://t.me/MissRose_bot"
+            "description":"Add Your User ID: You can get it by typing /info from @UploadLinkToFileBot"
         },
         "UPDATE_CHANNEL": {
             "description":"Your Channel User Name without @"
@@ -32,7 +32,7 @@
         },
         "DB_NAME":{ 
                "description":"Your Mongo DB Database Name ",
-                "value": "my",
+                "value": "",
                 "required": false
         }
     },
