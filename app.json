@@ -22,7 +22,7 @@
             "value": ""
         },
         "ADMIN": {
-            "description":"Your telegram I'd use this bot @UploadLinkToFileBot and use /info"
+            "description": "Your telegram I'd use this bot @UploadLinkToFileBot and use /info"
         },
         "UPDATE_CHANNEL": {
             "description": "Your Channel User Name without @",
