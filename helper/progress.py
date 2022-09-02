@@ -1,3 +1,5 @@
+# (c) Shrimadhav U K | Modified by @LISA_FAN_LK
+
 import math
 import time
 
