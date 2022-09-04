@@ -26,15 +26,14 @@ async def progress_for_pyrogram(
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
 
         progress = "[{0}{1}] \n**Progress**: {2}%\n".format(
-            ''.join(["▓" for i in range(math.floor(percentage / 10))]),
-            ''.join(["░" for i in range(10 - math.floor(percentage / 10))]),
+            ''.join(["●" for i in range(math.floor(percentage / 10))]),
+            ''.join(["○" for i in range(10 - math.floor(percentage / 10))]),
             round(percentage, 2))
 
         tmp = progress + "{0} of {1}\n**Speed**: {2}/s\n**ETA**: {3}\n".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
-            # elapsed_time if elapsed_time != '' else "0 s",
             estimated_total_time if estimated_total_time != '' else "0 s"
         )
         try:
@@ -49,8 +48,6 @@ async def progress_for_pyrogram(
 
 
 def humanbytes(size):
-    # https://stackoverflow.com/a/49361727/4723940
-    # 2**10 = 1024
     if not size:
         return ""
     power = 2**10
