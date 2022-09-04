@@ -13,6 +13,8 @@
 
 [![channel](https://te.legra.ph/file/adbf73d519f398306338f.jpg)](https://t.me/NT_BOT_CHANNEL)
 
+How To Create Your Own Watch This Video Click 👉 [YOUTUBE](https://youtu.be/5pgmUfwjdqY)
+
 ### Config Vars
 
 1. `ADMIN` : Add Your User ID: You can get it by typing /info from [@UploadLinkToFileBot](https://telegram.dog/UploadLinkToFileBot)
