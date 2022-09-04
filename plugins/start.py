@@ -1,4 +1,4 @@
-# (c) @LISA_FAN_LK | @UploadLinkToFileBot | @NT_BOT_CHANNEL
+# (c) @LISA_FAN_LK | @FastRenameBot | @NT_BOT_CHANNEL
 
 import os
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
