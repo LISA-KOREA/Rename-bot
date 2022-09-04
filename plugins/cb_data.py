@@ -1,4 +1,4 @@
-# (c) @LISA_FAN_LK | @UploadLinkToFileBot | @NT_BOT_CHANNEL
+# (c) @LISA_FAN_LK | @FastRenameBot | @NT_BOT_CHANNEL
 
 from helper.progress import progress_for_pyrogram
 from pyrogram import Client, filters
