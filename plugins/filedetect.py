@@ -1,4 +1,4 @@
-# (c) @LISA_FAN_LK | @UploadLinkToFileBot | @NT_BOT_CHANNEL
+# (c) @LISA_FAN_LK | @FastRenameBot | @NT_BOT_CHANNEL
 
 from pyrogram import Client, filters
 from pyrogram.types import (  InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
